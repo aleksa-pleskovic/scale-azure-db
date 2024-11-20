@@ -2,9 +2,9 @@ import requests
 from azure.identity import DefaultAzureCredential
 
 # Azure details
-subscription_id = "14ffaa1d-0aab-4e18-ae88-27ebc1732b10"
-resource_group_name = "rg-manageit-argus-prod"
-cluster_name = "db-psql-clstercosmos-manageit-argus-prod"
+subscription_id = "insert subscription id"
+resource_group_name = "insert rg name"
+cluster_name = "instert the clusters db name"
 
 # Base URL for Azure Resource Manager
 base_url = f"https://management.azure.com/subscriptions/{subscription_id}/resourceGroups/{resource_group_name}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{cluster_name}"
